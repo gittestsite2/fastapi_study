@@ -19,4 +19,5 @@
 
     > 방안 3
       QueryParam방식은 아니지만, Request Body을 통해서 전송하는 방법
-
+      https://fastapi.tiangolo.com/ko/tutorial/body/
+      If the parameter is declared to be of the type of a Pydantic model, it will be interpreted as a request body.
