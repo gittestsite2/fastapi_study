@@ -8,6 +8,7 @@
     > 문제
       인자값 q=a&q2=b&q3=c&q4=d&q5=f 5가지 값을 한번에 동적으로 보내는 방법
       인자값의 Parameter는 a,b,c등등 동적으로 변할수 있다.
+      구현) : https://github.com/gittestsite2/fastapi_study/blob/main/Day_1/day1_homework.py
 
     > 방안1
       key&value를 하나의 문자열로 인코딩해서 Request보내는 방법
