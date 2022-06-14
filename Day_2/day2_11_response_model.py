@@ -19,6 +19,9 @@ class Item(BaseModel):
 @app.post("/items/", response_model=Item)
 @app.post("/items/")
 
+참고 링크
+https://velog.io/@kjh03160/Fast-API-Response-Model-Output-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%98%95%EC%8B%9D
+
 """
 # @app.post("/items/", response_model=Item)
 @app.post("/items/")

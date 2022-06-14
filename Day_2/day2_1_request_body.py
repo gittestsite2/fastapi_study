@@ -12,6 +12,9 @@ To send data, you should use one of: POST (the more common), PUT, DELETE or PATC
 (*) Request Body부분에 대한 것이 명시적인 부분이 없어서 궁금
 L body의 동일한 값을 이름으로 Query Param을 지정하니 정상동작 되었다.
 L Postman
+
+파이딕티
+
 """
 
 from fastapi import FastAPI
