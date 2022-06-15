@@ -1,6 +1,14 @@
 from fastapi import FastAPI, File, Form, UploadFile
-
 app = FastAPI()
+
+
+"""
+install : pip install python-multipart
+
+>>
+1. form vs file
+You can define files and form fields at the same time using File and Form.
+"""
 
 
 @app.post("/files/")
